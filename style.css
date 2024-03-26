@@ -1,5 +1,4 @@
    
-   
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{ margin: 0;
     padding: 0;
@@ -226,7 +225,7 @@
   flex-direction: column;
   gap: 1rem;
   background: var(--second-bg-color);
-  padding-bottom: 4rem;
+  padding-bottom: 45rem;
 }
 .about .navbar{
 margin-top: 1rem;
@@ -324,6 +323,7 @@ h3:before{
   /* Position and overflow properties */
   position: relative;
   overflow: hidden;
+  margin-top: 5rem;
 }
 
 
@@ -374,11 +374,12 @@ padding-bottom: 5rem;
 .education-box .education-content::before{
   content: "";
   position: absolute;
-  bottom: 50;
   height: 1rem;
   width: 1rem;
   background: var(--main-color);
   border-radius: 50%;
+  left: 0px;
+
   
 }
 .education-content .content {
@@ -393,6 +394,7 @@ padding-bottom: 5rem;
 }
 .education-content .content .year i{
   padding-right: .5rem;
+  
 }
 
 /* Contact Page */
@@ -715,6 +717,9 @@ section {
 .about .navbar a{
 
 }
+.about-image{
+  margin-left: 15rem;
+}
 .about-image img{
   height: 20rem;
 }
@@ -731,11 +736,37 @@ section {
  
   .home{
     display: block;
-    margin-top: 25rem;
+    margin-top: 19rem;
     align-items: center;
     padding: 0 9%;
  }
  .home-sci{
   margin-top: 4rem;
  }
+}
+@media (min-width: 538px) and (max-height: 734px){
+  .header{
+    justify-content: center;
+  }
+
+  .header .navbar{
+    display: left;
+    background-color: #112e42;
+    border: .2rem solid var(--main-color);
+    margin: .2rem ;
+    border-radius: 30px;
+    word-spacing: 0.1rem;
+    
+}
+#home .btn-box{
+  margin-left: 5rem;
+}
+
+.home{
+  margin-top: 10rem;
+}
+#home .home-sci{
+  margin-left: 12rem;
+  margin-bottom: 3rem;
+}
 }
