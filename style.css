@@ -769,4 +769,91 @@ section {
   margin-left: 12rem;
   margin-bottom: 3rem;
 }
+}/* Skills CSS */
+.skills h1{
+  text-align: center;
+}
+.skills h3{
+  margin: 5px;
+}
+.skills{
+  width: 500px;
+  margin: 150px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.skills li{
+  margin: 20px 0;
+  padding: 10px;
+}
+.bar{
+  background: ;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25,1);
+}
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, var(--main-color) ,var(--main2-color)100%);
+}
+.html{
+  width: 80%;
+  animation: html 3s;
+}
+
+.css{
+  width: 75%;
+  animation: css 3s;
+}
+
+.c_plus{
+  width: 45%;
+  animation: c_plus 3s;
+}
+
+.javascript{
+  width: 50%;
+  animation: javascript 3s;
+}
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+@keyframes c_plus{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 45%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
 }
