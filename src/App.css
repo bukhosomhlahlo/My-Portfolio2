@@ -853,15 +853,18 @@ figure.snip1157 .author h5 span {
   }
   .banner h1 {
     font-size: 40px;
+    order: 2;
   }
   .banner p {
     font-size: 16px;
     width: 100%;
+    order:3;
   }
   .banner img {
     height: 300px;
     align-items: center;
     margin-top: 1.8rem;
+    order:1;
   }
 
   /* Skills */
@@ -959,11 +962,16 @@ figure.snip1157 .author h5 span {
   }
   .banner h1 {
     font-size: 32px;
+    order: 2;
+  }
+  .banner p{
+    order: 3;
   }
   .banner img {
     height: 200px;
     width: 200px;
-    align-items: center;
+    margin-left: 3.5rem;
+    order: 1;
   }
 
   /* Skills & Projects */
