@@ -860,11 +860,14 @@ figure.snip1157 .author h5 span {
   }
   .banner img {
     height: 300px;
+    align-items: center;
+    margin-top: 1.8rem;
   }
 
   /* Skills */
   .skill-bx {
     padding: 40px 30px;
+    margin-top: 2rem;
   }
   .skill h2 {
     font-size: 35px;
