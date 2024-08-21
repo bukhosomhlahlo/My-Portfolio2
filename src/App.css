@@ -963,7 +963,7 @@ figure.snip1157 .author h5 span {
   .banner img {
     height: 200px;
     width: 200px;
-    margin-left: 3.5rem;
+    align-items: center;
   }
 
   /* Skills & Projects */
